@@ -1,0 +1,41 @@
+{
+  "name": "myproject_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "sass-ver": "sass --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyattsu72/myproject_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyattsu72/myproject_webpack/issues"
+  },
+  "homepage": "https://github.com/nyattsu72/myproject_webpack#readme",
+  "devDependencies": {
+    "css-declaration-sorter": "^6.2.2",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "loadash": "^1.0.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "postcss-sort-media-queries": "^4.2.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
