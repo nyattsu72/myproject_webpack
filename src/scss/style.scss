@@ -1,0 +1,27 @@
+$color: green;
+$main_color: yellow;
+$bg_color:#f4f4f4;
+
+::placeholder {
+  color: $color;
+}
+
+.main{
+  background-color: $bg_color;
+}
+
+@media (min-resolution: 2dppx) {
+  .image {
+    background-image: url(../icon.png);
+  }
+}
+
+:root {
+  --mainColor: #{$main_color};  /*カスタムプロパティと Sass のインターポレーション*/
+}
+
+body {
+  color: var(--mainColor);
+  font-family: system-ui;
+  overflow-wrap: break-word;
+}
